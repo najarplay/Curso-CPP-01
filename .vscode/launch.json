@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/02- Expresiones y Operadores",
-      "program": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/02- Expresiones y Operadores/build/Debug/outDebug",
+      "cwd": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/03- Condicionales",
+      "program": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/03- Condicionales/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
