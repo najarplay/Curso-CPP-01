@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/04- Bucles o Ciclos",
-      "program": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/04- Bucles o Ciclos/build/Debug/outDebug",
+      "cwd": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/05- Arreglos",
+      "program": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/05- Arreglos/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
