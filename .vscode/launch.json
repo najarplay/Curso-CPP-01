@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/05- Arreglos",
-      "program": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/05- Arreglos/build/Debug/outDebug",
+      "cwd": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/06- Matrices o Tablas",
+      "program": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/06- Matrices o Tablas/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
