@@ -1,4 +1,4 @@
-/*metodo burbuja*/
+/*ordenamiento por insercion */
 
 #include<iostream>
 #include<conio.h>
@@ -10,21 +10,20 @@ int main(){
     int i,j,aux;
 
     for(i=0; i<5; i++){
-        for(j=0; j<5; j++){
-            if(numeros[j] > numeros[j+1]){
-                aux = numeros[j];
-                numeros[j] = numeros[j+1];
-                numeros[j+1] = aux;
-            }
+        j = i;
+        aux = numeros[i];
+
+        while((j>0) && (numeros[j-1] > aux)){
+            numeros[j] = numeros[j-1];
+            j--;
         }
+        numeros[j] = aux;
     }
 
     cout<<"orden acendente ";
-
     for(i=0; i<5; i++){
         cout<<numeros[i]<<" ";
     }
-
 
     getch();
     return 0;

@@ -12,7 +12,7 @@ int main(){
     char cad3[30];
 
     strcpy(cad3,cad1);
-    strcpy(cad3,cad2);
+    strcat(cad3,cad2);
     cout<<cad3<<endl;
 
 

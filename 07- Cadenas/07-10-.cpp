@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(){
-    char cad[] = "renocer";
+    char cad[] = "renocer a";
 
     strrev(cad);
     
