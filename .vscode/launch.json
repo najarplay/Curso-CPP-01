@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/07- Cadenas",
-      "program": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/07- Cadenas/build/Debug/outDebug",
+      "cwd": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/11- Funciones",
+      "program": "c:/Users/najar/OneDrive/Desktop/Curso-c++/Curso-CPP-01/11- Funciones/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
