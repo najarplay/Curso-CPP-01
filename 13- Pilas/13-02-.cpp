@@ -11,19 +11,31 @@ struct Nodo{
 };
 
 void agregarPila(Nodo *&, int);
+void sacarPila(Nodo *&, int &);
 
  int main(){
     Nodo *pila = NULL;
-
-    int n1, n2;
-
-    cout<<"digite un numero: ";
-    cin>>n1;
-    agregarPila(pila,n1);
+    int dato;
 
     cout<<"digite un numero: ";
-    cin>>n2;
-    agregarPila(pila,n2);
+    cin>>dato;
+    agregarPila(pila,dato);
+
+    cout<<"digite un numero: ";
+    cin>>dato;
+    agregarPila(pila,dato);
+
+    cout<<"\nsacando los elementos: ";
+
+    while(pila !=NULL ){
+        sacarPila(pila, dato);
+        if(pila != NULL){
+            cout<<dato<<" , ";
+        }
+        else{
+            cout<<dato<<" ... ";
+        }
+    }
 
     getch();
     return 0;
@@ -34,4 +46,11 @@ void agregarPila(Nodo *&, int);
     nuevo_nodo -> dato = n;
     nuevo_nodo -> siguiente = pila;
     pila = nuevo_nodo;
+ }
+
+ void sacarPila(Nodo *&pila, int &n){
+    Nodo *aux = pila;
+    n = aux -> dato;
+    pila = aux -> siguiente;
+    delete aux;
  }
