@@ -1,3 +1,4 @@
+//eliminar elementos de la cola
 // insertar elementos en una cola
 
 #include<iostream>
@@ -12,6 +13,7 @@ struct Nodo{
 
 void insertarCola(Nodo *&, Nodo *&, int);
 bool cola_vacia(Nodo *);
+void suprimirCola(Nodo *&, Nodo *&, int &);
 
 int main(){
     Nodo *frente = NULL;
@@ -30,6 +32,18 @@ int main(){
     cout<<"digite un nuevemo: ";
     cin>>dato;
     insertarCola(frente,fin,dato);
+
+    cout<<"\nquitando los nodos";
+    while(frente != NULL){
+        suprimirCola(frente, fin, dato);
+
+        if(frente != NULL){
+            cout<<dato<<" , ";
+        }
+        else{
+            cout<<dato<<" ... ";
+        }
+    }
 
     getch();
     return 0;
@@ -60,4 +74,18 @@ bool cola_vacia(Nodo *frente){
     else{
         return false;
     }*/
+}
+
+void suprimirCola(Nodo *&frente, Nodo *&fin, int &n){
+    n = frente -> dato;
+    Nodo *aux = frente;
+
+    if(frente == fin){
+        frente = NULL;
+    }
+    else{
+        frente = frente -> siguiente;
+    }
+
+    delete aux;
 }
