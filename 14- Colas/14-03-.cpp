@@ -67,7 +67,6 @@ void menu(){
     }while(opc != 3);
 }
 
-
 void innsertarCola(Nodo *&frente, Nodo *&fin, char n){
     Nodo *nuevo_nodo = new Nodo();
 
